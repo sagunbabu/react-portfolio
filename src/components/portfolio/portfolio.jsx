@@ -8,7 +8,7 @@ const data = [
         image: IMG1,
         title: 'Rock Paper Sciossors Game',
         github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
+        demo: 'https://sagunbabu.github.io/rpc/'
     },
     {
         id: 2,
