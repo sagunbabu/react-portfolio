@@ -11,24 +11,25 @@ import 'swiper/css/pagination';
 const data = [
     {
         avatar: AVTR1,
-        name: 'Andy',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
-    },
-    {
-        avatar: AVTR1,
-        name: 'Mandy',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
-    },
-    {
-        avatar: AVTR1,
-        name: 'Sandy',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
-    },
-    {
-        avatar: AVTR1,
-        name: 'Gandy',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
+        name: 'Coming Soon,',
+        designation: 'Client',
+        review: 'Your review here!'
     }
+    // {
+    //     avatar: AVTR1,
+    //     name: 'Mandy',
+    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
+    // },
+    // {
+    //     avatar: AVTR1,
+    //     name: 'Sandy',
+    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
+    // },
+    // {
+    //     avatar: AVTR1,
+    //     name: 'Gandy',
+    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
+    // }
 ]
 
 const testimonials = () => {
@@ -42,13 +43,13 @@ const testimonials = () => {
                 slidesPerView={1}
                 pagination={{ clickable: true }}>
                 {
-                    data.map(({ avatar, name, review }, index) => {
+                    data.map(({ avatar, name, designation, review }, index) => {
                         return (
                             <SwiperSlide key={index} className="testimonial">
                                 <div className="client__avatar">
                                     <img src={avatar} alt="Avatar One" />
                                 </div>
-                                <h5 className='client__name'>{name}</h5>
+                                <h4>{name} <small className='client__designation'>{designation}</small></h4>
                                 <small className="client__review">{review}</small>
                             </SwiperSlide>
                         )

@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/port.jpg'
+import IMG1 from '../../assets/rpc.png'
+import IMG2 from '../../assets/port.jpg'
+
 
 const data = [
     {
@@ -9,42 +11,42 @@ const data = [
         title: 'Rock Paper Sciossors Game',
         github: 'https://github.com/sagunbabu',
         demo: 'https://sagunbabu.github.io/rpc/'
-    },
-    {
-        id: 2,
-        image: IMG1,
-        title: 'Rock Paper Sciossors Game',
-        github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
-    },
-    {
-        id: 3,
-        image: IMG1,
-        title: 'Rock Paper Sciossors Game',
-        github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
-    },
-    {
-        id: 4,
-        image: IMG1,
-        title: 'Rock Paper Sciossors Game',
-        github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
-    },
-    {
-        id: 5,
-        image: IMG1,
-        title: 'Rock Paper Sciossors Game',
-        github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
-    },
-    {
-        id: 6,
-        image: IMG1,
-        title: 'Rock Paper Sciossors Game',
-        github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
     }
+    // {
+    //     id: 2,
+    //     image: '',
+    //     title: 'Can you answer? (Quiz)',
+    //     github: 'https://github.com/sagunbabu',
+    //     demo: 'https://sagunbabu.com.np'
+    // },
+    // {
+    //     id: 3,
+    //     image: '',
+    //     title: 'eCommerce Website',
+    //     github: 'https://github.com/sagunbabu',
+    //     demo: 'https://sagunbabu.com.np'
+    // },
+    // {
+    //     id: 4,
+    //     image: '',
+    //     title: 'Real-time Chat Application',
+    //     github: 'https://github.com/sagunbabu',
+    //     demo: 'https://sagunbabu.com.np'
+    // },
+    // {
+    //     id: 5,
+    //     image: ' ',
+    //     title: 'Online Bookstore',
+    //     github: 'https://github.com/sagunbabu',
+    //     demo: 'https://sagunbabu.com.np'
+    // },
+    // {
+    //     id: 6,
+    //     image: '',
+    //     title: 'Book My Seat',
+    //     github: 'https://github.com/sagunbabu',
+    //     demo: 'https://sagunbabu.com.np'
+    // }
 ]
 
 const portfolio = () => {
@@ -63,7 +65,7 @@ const portfolio = () => {
                                 <div className="portfolio__icon-image">
                                     <h3>{title}</h3>
                                     <div className="portfolio__item-cta">
-                                        <a href={github} className='btn' target='_blank'>Github</a>
+                                        {/* <a href={github} className='btn' target='_blank'>Github</a> */}
                                         <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
                                     </div>
                                 </div>
