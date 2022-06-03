@@ -21,24 +21,25 @@ const about = () => {
                         <article className="about__card">
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>1+ Years</small>
+                            <small>0.5+ Years</small>
                         </article>
                         <article className="about__card">
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
-                            <small>10+ Worldwide</small>
+                            <small>5+ Worldwide</small>
                         </article>
                         <article className="about__card">
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>10+ Completed</small>
+                            <small>7+ Completed</small>
                         </article>
                     </div>
 
                     <p>
-                        Goal oriented, focused Computer Science Graduate with an eye for detail.
-                        Complete knowledge of Programming languages (like C, C++, Java, Python ),
-                        Scripting languages (like JavaScript, PHP) and Query languages (like MySQL).
+                        Quick learning of new skills and programming languages, problem solving,
+                        responsive design principles are some of my specialties. So far, I've got
+                        HTML, JavaScript, CSS, jQuery, PHP, Python, MySQL, Bootstrap, and React.js
+                        under my hood. I've enthusiastically started learning Node.JS, and MongoDB.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
