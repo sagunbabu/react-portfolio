@@ -1,7 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/rpc.png'
-import IMG2 from '../../assets/port.jpg'
+import IMG2 from '../../assets/quiz.jpg'
+import IMG3 from '../../assets/bookstore.jpg'
 
 
 const data = [
@@ -14,17 +15,17 @@ const data = [
     },
     {
         id: 2,
-        image: '',
+        image: IMG2,
         title: 'Can you answer? (Quiz)',
         github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
+        demo: 'https://sagunbabu.github.io/quiz/'
     },
     {
         id: 3,
-        image: ' ',
+        image: IMG3,
         title: 'Online Bookstore',
         github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
+        demo: 'https://sagunbabu.github.io/bookstore/'
     }
     // {
     //     id: 4,
