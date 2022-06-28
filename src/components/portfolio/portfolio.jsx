@@ -11,7 +11,7 @@ const data = [
         title: 'Rock Paper Sciossors Game',
         github: 'https://github.com/sagunbabu',
         demo: 'https://sagunbabu.github.io/rpc/'
-    }
+    },
     {
         id: 2,
         image: '',
@@ -19,27 +19,27 @@ const data = [
         github: 'https://github.com/sagunbabu',
         demo: 'https://sagunbabu.com.np'
     },
+    {
+        id: 3,
+        image: ' ',
+        title: 'Online Bookstore',
+        github: 'https://github.com/sagunbabu',
+        demo: 'https://sagunbabu.com.np'
+    }
     // {
-    //     id: 3,
+    //     id: 4,
     //     image: '',
     //     title: 'eCommerce Website',
     //     github: 'https://github.com/sagunbabu',
     //     demo: 'https://sagunbabu.com.np'
     // },
     // {
-    //     id: 4,
+    //     id: 5,
     //     image: '',
     //     title: 'Real-time Chat Application',
     //     github: 'https://github.com/sagunbabu',
     //     demo: 'https://sagunbabu.com.np'
     // },
-    {
-        id: 5,
-        image: ' ',
-        title: 'Online Bookstore',
-        github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np'
-    },
     // {
     //     id: 6,
     //     image: '',
