@@ -12,13 +12,13 @@ const data = [
         github: 'https://github.com/sagunbabu',
         demo: 'https://sagunbabu.github.io/rpc/'
     }
-    // {
-    //     id: 2,
-    //     image: '',
-    //     title: 'Can you answer? (Quiz)',
-    //     github: 'https://github.com/sagunbabu',
-    //     demo: 'https://sagunbabu.com.np'
-    // },
+    {
+        id: 2,
+        image: '',
+        title: 'Can you answer? (Quiz)',
+        github: 'https://github.com/sagunbabu',
+        demo: 'https://sagunbabu.com.np'
+    },
     // {
     //     id: 3,
     //     image: '',
@@ -33,13 +33,13 @@ const data = [
     //     github: 'https://github.com/sagunbabu',
     //     demo: 'https://sagunbabu.com.np'
     // },
-    // {
-    //     id: 5,
-    //     image: ' ',
-    //     title: 'Online Bookstore',
-    //     github: 'https://github.com/sagunbabu',
-    //     demo: 'https://sagunbabu.com.np'
-    // },
+    {
+        id: 5,
+        image: ' ',
+        title: 'Online Bookstore',
+        github: 'https://github.com/sagunbabu',
+        demo: 'https://sagunbabu.com.np'
+    },
     // {
     //     id: 6,
     //     image: '',
