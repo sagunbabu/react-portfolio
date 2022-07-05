@@ -33,7 +33,7 @@ const data = [
         image: IMG4,
         title: 'Movie Recommender App',
         github: 'https://github.com/sagunbabu',
-        demo: 'https://sagunbabu.com.np/'
+        demo: 'https://app-movies-recommender.herokuapp.com/'
     }
     // {
     //     id: 5,
