@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/rpc.png'
 import IMG2 from '../../assets/quiz.jpg'
 import IMG3 from '../../assets/bookstore.jpg'
+import IMG4 from '../../assets/movie.png'
 
 
 const data = [
@@ -26,14 +27,14 @@ const data = [
         title: 'Online Bookstore',
         github: 'https://github.com/sagunbabu',
         demo: 'https://sagunbabu.github.io/bookstore/'
+    },
+    {
+        id: 4,
+        image: IMG4,
+        title: 'Movie Recommender App',
+        github: 'https://github.com/sagunbabu',
+        demo: 'https://sagunbabu.com.np/'
     }
-    // {
-    //     id: 4,
-    //     image: '',
-    //     title: 'eCommerce Website',
-    //     github: 'https://github.com/sagunbabu',
-    //     demo: 'https://sagunbabu.com.np'
-    // },
     // {
     //     id: 5,
     //     image: '',
