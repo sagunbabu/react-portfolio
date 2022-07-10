@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sagunbabu.com.np
+Token: 6f5e833bed2fb03510e78cfd52c04c05e7e9b8b370cfd7e01a00e66e5b20d819
