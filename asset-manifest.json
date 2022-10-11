@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37fa0cb7.css",
-    "main.js": "/static/js/main.be2235c2.js",
+    "main.js": "/static/js/main.479091a9.js",
     "static/media/movie.png": "/static/media/movie.9a34cf4c94246e1f0dc4.png",
     "static/media/rpc.png": "/static/media/rpc.5ab12cf471a00047120b.png",
     "static/media/about-me.jpg": "/static/media/about-me.80784b3e64ec8dbb1613.jpg",
@@ -9,13 +9,14 @@
     "static/media/me.png": "/static/media/me.a37a049ac7f788595bac.png",
     "static/media/ckd.jpg": "/static/media/ckd.48fe772fe42eb0a21911.jpg",
     "static/media/quiz.jpg": "/static/media/quiz.15cea51e77ad4e9cd1f0.jpg",
+    "static/media/superior.jpg": "/static/media/superior.431ee58803e28501b5e1.jpg",
     "static/media/oasis-logo.jpeg": "/static/media/oasis-logo.83b1bfc1fa7f6800bfb8.jpeg",
     "index.html": "/index.html",
     "main.37fa0cb7.css.map": "/static/css/main.37fa0cb7.css.map",
-    "main.be2235c2.js.map": "/static/js/main.be2235c2.js.map"
+    "main.479091a9.js.map": "/static/js/main.479091a9.js.map"
   },
   "entrypoints": [
     "static/css/main.37fa0cb7.css",
-    "static/js/main.be2235c2.js"
+    "static/js/main.479091a9.js"
   ]
 }
