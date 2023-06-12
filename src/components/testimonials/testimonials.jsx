@@ -11,25 +11,25 @@ import 'swiper/css/pagination';
 const data = [
     {
         avatar: AVTR1,
-        name: 'Coming Soon,',
+        name: 'aaaa',
         designation: 'Client',
-        review: 'Your review here!'
+        review: 'your review here.'
+    },
+    {
+        avatar: AVTR1,
+        name: 'Mandy',
+        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
+    },
+    {
+        avatar: AVTR1,
+        name: 'Sandy',
+        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
+    },
+    {
+        avatar: AVTR1,
+        name: 'Gandy',
+        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
     }
-    // {
-    //     avatar: AVTR1,
-    //     name: 'Mandy',
-    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
-    // },
-    // {
-    //     avatar: AVTR1,
-    //     name: 'Sandy',
-    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
-    // },
-    // {
-    //     avatar: AVTR1,
-    //     name: 'Gandy',
-    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas sed consequatur consectetur corrupti officia ad laboriosam quasi ullam fuga!'
-    // }
 ]
 
 const testimonials = () => {
